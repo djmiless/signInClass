@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Flicks Academy - Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head> 
+<body>
+    <div class="container">
+        <div class="form-container signup">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-name" placeholder="Name" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <button id="show-login">Login</button></p>
+        </div>
+
+        <div class="form-container login hidden">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <button id="show-signup">Sign Up</button></p>
+            </div>
+
+            <div class="landing hidden">
+            <h2>Welcome to Data Flicks Academy!</h2>
+            <p>You are now logged in.</p>
+            <p>Start your learning journey and explore our courses.</p>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
